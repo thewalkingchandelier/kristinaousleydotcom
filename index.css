@@ -1,0 +1,140 @@
+body {
+    background-color: #121212;
+  }
+    .hero-vid {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: auto;
+
+        
+    }
+    p {
+      font-family: "montserrat", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .hero-image {
+      display: none;
+    }
+
+    video {
+      object-fit: fill;
+      width: 80%;
+      height: 500px;
+    }
+   
+    figcaption {
+      font-size: 8pt;
+    }
+    .nav-link {
+      font-family: "gala", sans-serif;
+    }
+    .nav-link:hover {
+      color: #e04155;
+    }
+    .card-img-top {
+      width: 80%;
+      height: 40%;
+      margin: auto;
+      padding-top: 3%;
+    }
+    .footer { 
+	  width: 100%; 
+	  border-top: 1px solid gray;
+    gap: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%; 
+}
+.footer img {
+  width: 50px;
+  height: 50px;
+}
+.footer-logo {
+  float: left;
+  padding-left: 1%;
+  
+}
+.socials {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: 20%;
+  padding: 3%;
+}
+
+    h2 {
+      font-family: "gala", sans-serif;
+      padding-bottom: 1%;
+    }
+   .featured-work {
+    text-align: center;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+   }
+   .container-md {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    margin: auto;
+    padding: 3%;
+   }
+   
+   @media screen and (max-width: 768px) {
+  .container-md {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+ 
+}
+
+   .hero-vid {
+    display: none;
+   }
+   .hero-image {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 50%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+   }
+   .footer {
+    margin: auto;
+	width: 100%; 
+	text-decoration: none;
+    border-top: 5px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    
+}
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+   
+  }
+.resume-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+}
