@@ -15,6 +15,10 @@ body {
       font-weight: 400;
       font-style: normal;
     }
+    .case-prompt {
+      color: white;
+      text-align: center;
+    }
     .hero-image {
       display: none;
     }
@@ -33,6 +37,12 @@ body {
     }
     .nav-link:hover {
       color: #e04155;
+    }
+    .card:hover {
+      
+      transform: translate(0%, -5%);
+      animation-timing-function: ease-in-out;
+
     }
     .card-img-top {
       width: 80%;
@@ -68,6 +78,8 @@ body {
     h2 {
       font-family: "gala", sans-serif;
       padding-bottom: 1%;
+      text-align: center;
+      color: white;
     }
    .featured-work {
     text-align: center;
@@ -77,11 +89,16 @@ body {
    }
    .container-md {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    gap: 10%;
+    gap: 5%;
     margin: auto;
-    padding: 3%;
+    padding: 1%;
+ 
+   }
+
+   .container .text-center {
+    display: flex;
+    flex-direction: row;
    }
    
    @media screen and (max-width: 768px) {
